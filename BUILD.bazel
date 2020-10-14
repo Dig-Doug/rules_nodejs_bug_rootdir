@@ -1,0 +1,8 @@
+load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary", "pkg_web")
+load("@build_bazel_rules_nodejs//packages/typescript:index.bzl", "ts_config", "ts_devserver", "ts_library")
+
+pkg_web(
+    name = "prodapp",
+    srcs = [
+    ],
+)
